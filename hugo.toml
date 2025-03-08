@@ -1,0 +1,31 @@
+baseURL = 'http://localhost'
+languageCode = 'en-us'
+title = 'Limitless Prompts'
+theme = 'hugo-book'
+
+# Book theme specific options
+[params]
+  # (Optional) Set this to true to enable search functionality
+  BookSearch = true
+  
+  # Set the main section to prompts
+  BookSection = 'prompts'
+  
+  # (Optional) This value is required for the 'Edit this page' links
+  BookRepo = ''
+  
+  # (Optional) Enable 'Edit this page' links
+  BookEditPath = ''
+  
+  # (Optional) Set this to true to enable dark mode option
+  BookTheme = 'light'
+  
+  # (Optional) Set this to true to enable ToC
+  BookToC = true
+  
+  # (Optional) If you provide a Disqus shortname, comments will be enabled on all pages.
+  # disqusShortname = ''
+
+# Needed for search functionality to work
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
