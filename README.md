@@ -1,7 +1,5 @@
 # Limitless Prompts
 
-![limitless-prompts](https://github.com/Maclean-D/limitless-prompts/raw/main/limitless-prompts.png)
-
 Collection of prompts used in Limitless' Ask AI. [Visit the site here]().
 
 ## How to install
